@@ -44,6 +44,7 @@
   
   h2.underline-hover:hover {
     text-decoration: underline;
+    background-color: #888;
   }
   
   #avatar {
@@ -57,11 +58,14 @@
   
   form input {
     width: 100%;
-    padding: 10px;
+    padding-top: 20px;
     margin: 10px 0;
     border: 1px solid var(--secondary-color);
     border-radius: 5px;
     font-size: 1rem;
+    background-color: #d3d6d8;
+    text-align: center;
+    align-items: center;
   }
   
   form input[type="submit"] {
@@ -78,15 +82,17 @@
   
   #form-footer {
     margin-top: 10px;
+    background-color: #d3d6d8;
   }
   
   #form-footer a {
     color: var(--main-color);
     text-decoration: none;
     font-size: 0.9rem;
+    
   }
   
   #form-footer a:hover {
     text-decoration: underline;
   }
-  
+ 
